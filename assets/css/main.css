@@ -226,9 +226,9 @@ th {
         text-align: center;
     }
 
-    /* .navbar-dark .navbar-nav .nav-link {
-        border-bottom: solid 1px;
-    } */
+    .nav-item {
+        font-size: 30px;
+    }
 
     .social {
         visibility: hidden;
