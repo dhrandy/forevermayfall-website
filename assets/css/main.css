@@ -213,9 +213,9 @@ th {
         margin-bottom: 20px;
     }
 
-    /* .col-md-4 {
-        margin-left: 4%;
-    } */
+    .col-md-4 {
+        text-align: center;
+    }
 
     .band-members img {
         width: 250px;
