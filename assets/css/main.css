@@ -176,8 +176,15 @@ th {
     position: absolute;
 }
 
+@media only screen and (min-width: 769px) {
+    .about {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+}
 
-@media only screen and (max-width: 767px) {
+
+@media only screen and (max-width: 768px) {
     #social-mobile {
         visibility: visible;
         position: absolute;
@@ -232,5 +239,11 @@ th {
 
     .social {
         visibility: hidden;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .jumbotron {
+        height: 85vh;
     }
 }
