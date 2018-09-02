@@ -107,6 +107,10 @@ article {
     text-align: center;
 }
 
+#social-mobile {
+    visibility: hidden;
+}
+
 #footer-logo {
     width: 177px;
     margin-right: 10px;
@@ -172,10 +176,23 @@ th {
     position: absolute;
 }
 
+
 @media only screen and (max-width: 767px) {
+    #social-mobile {
+        visibility: visible;
+        position: absolute;
+        right: 20px;
+        top:    10px;
+    }
+
+    .fab {
+        font-size: 22px;
+    }
+
     .jumbotron {
         background-image: url(../imgs/header-mobile.jpg);
         background-position: top center;
+        position: relative;
     }
 
     td {
@@ -196,9 +213,9 @@ th {
         margin-bottom: 20px;
     }
 
-    .col-md-4 {
+    /* .col-md-4 {
         margin-left: 4%;
-    }
+    } */
 
     .band-members img {
         width: 250px;
@@ -212,6 +229,7 @@ th {
     .navbar-dark .navbar-nav .nav-link {
         border-bottom: solid 1px;
     }
+
     .social {
         visibility: hidden;
     }
