@@ -1,3 +1,6 @@
+/* ================== */
+/* General CSS */
+/* ================== */
 body {
     background-color: black;
     color: white;
@@ -11,6 +14,9 @@ body {
     background-color: black !important;
 }
 
+/* ================== */
+/* Banner */
+/* ================== */
 .jumbotron {
     background-color: black;
     background-image: url(../imgs/header.jpg);
@@ -23,12 +29,20 @@ body {
     text-align: center;
     font-weight: bold;
     font-size: 30px;
+    margin-bottom: 30px;
 }
 
+/* ================== */
+/* Social Icons */
+/* ================== */
 .social {
     margin-top: 30px;
     position: absolute;
     right: 10px;
+}
+
+.fab {
+    margin-left: 5px;
 }
 
 .col {
@@ -37,10 +51,6 @@ body {
 
 #navbarSupportedContent {
     position: relative;
-}
-
-.fab {
-    margin-left: 5px;
 }
 
 a {
@@ -61,10 +71,6 @@ a :hover {
     background-color: red;
     border: 0;
     height: 5px;
-}
-
-.title {
-    margin-bottom: 30px;
 }
 
 ul {
@@ -92,6 +98,9 @@ article {
     margin-bottom: 80px;
 }
 
+/* ================== */
+/* Youtube Spacing */
+/* ================== */
 .youtube {
     margin-left: 10px;
     margin-right: 10px;
@@ -104,13 +113,19 @@ article {
 }
 
 .coming-soon {
-    font-size: 20px;
+    border: solid 1px;
+    padding: 150px;
+    font-size: 30px;
+    text-align: center;
 }
 
 .center {
     text-align: center;
 }
 
+/* ================== */
+/* Footer */
+/* ================== */
 #social-mobile {
     visibility: hidden;
 }
@@ -247,6 +262,10 @@ th {
 
     .social {
         visibility: hidden;
+    }
+
+    .coming-soon {
+        padding: 77px;
     }
 }
 
