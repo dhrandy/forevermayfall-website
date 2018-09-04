@@ -154,6 +154,10 @@ footer {
     border: 2px solid rgb(255, 0, 0); 
   } 
 
+.modal-body img {
+    text-align: center;
+}
+
 /* ================================= */
 /* Show Table */
 /* ================================= */
