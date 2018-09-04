@@ -68,9 +68,12 @@ a :hover {
 .title hr {
     width: 70px;
     align-content: center;
+    text-align: center;
     background-color: red;
     border: 0;
     height: 5px;
+    display: block; 
+    margin: 0 auto;
 }
 
 ul {
