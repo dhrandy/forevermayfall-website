@@ -146,6 +146,14 @@ footer {
     font-size: 22px;
 }
 
+.modal-body, .modal-title {
+    color: black;
+}
+
+.band-members img:hover { 
+    border: 2px solid rgb(255, 0, 0); 
+  } 
+
 /* ================================= */
 /* Show Table */
 /* ================================= */
