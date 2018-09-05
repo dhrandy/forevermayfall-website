@@ -150,12 +150,18 @@ footer {
     color: black;
 }
 
-.band-members img:hover { 
+.band-members .col img:hover { 
     border: 2px solid rgb(255, 0, 0); 
   } 
 
 .modal-body img {
     text-align: center;
+    margin-bottom: 20px;
+}
+
+.modal-body {
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 /* ================================= */
