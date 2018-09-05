@@ -126,6 +126,10 @@ article {
     text-align: center;
 }
 
+.thank-you {
+    margin-bottom: 40px;
+}
+
 /* ================== */
 /* Footer */
 /* ================== */
@@ -299,4 +303,10 @@ th {
     .jumbotron {
         height: 85vh;
     }
+}
+
+/* New Album CSS */
+.new-album-logo {
+    width: 80%;
+    height: 200px;
 }
